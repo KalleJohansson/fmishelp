@@ -1,3 +1,167 @@
-.container-fluid {
-	background: #ec9f0d;
+.wht_ws_g, .wht_ws, .wht_toc_n:before, .wht_toc4,
+.wht_sync,.wht_prev_g,.wht_prev,.wht_next_g,
+.wht_next,.wht_idx_n,.wht_idx_h,.wht_hide,
+.wht_go,.wht_glo_n,.wht_glo_h,.wht_fts_n,
+.wht_fts_h,.white_page,.white_nav_search,
+.white_nav_index,.white_nav_glossary,
+.white_book_open,.white_book_closed,.sym-ec,
+.gold_logo,.go {
+	background: url(/public/images/fmis_sprites.png) no-repeat;
+	margin-left: 10px;
+}
+
+.wht_ws_g {
+	background-position: 0 0;
+	width: 16px;
+	height: 16px;
+}
+
+.wht_ws {
+	background-position: 0 -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.wht_toc_n {
+	background-position: 0 -32px;
+/* 	width: 17px; */
+	height: 16px;
+}
+
+.wht_toc4 {
+	background-position: 0 -48px;
+	width: 16px;
+	height: 16px;
+}
+
+.wht_sync {
+	background-position: 0 -64px;
+	width: 12px;
+	height: 12px;
+}
+
+.wht_prev_g {
+	background-position: 0 -76px;
+	width: 9px;
+	height: 16px;
+}
+
+.wht_prev {
+	background-position: 0 -92px;
+	width: 9px;
+	height: 16px;
+}
+
+.wht_next_g {
+	background-position: 0 -108px;
+	width: 8px;
+	height: 16px;
+}
+
+.wht_next {
+	background-position: 0 -124px;
+	width: 9px;
+	height: 16px;
+}
+
+.wht_idx_n {
+	background-position: 0 -140px;
+	width: 14px;
+	height: 16px;
+}
+
+.wht_idx_h {
+	background-position: 0 -156px;
+	width: 14px;
+	height: 16px;
+}
+
+.wht_hide {
+	background-position: 0 -172px;
+	width: 12px;
+	height: 12px;
+}
+
+.wht_go {
+	background-position: 0 -184px;
+	width: 25px;
+	height: 18px;
+}
+
+.wht_glo_n {
+	background-position: 0 -202px;
+	width: 14px;
+	height: 16px;
+}
+
+.wht_glo_h {
+	background-position: 0 -218px;
+	width: 14px;
+	height: 16px;
+}
+
+.wht_fts_n {
+	background-position: 0 -234px;
+	width: 18px;
+	height: 16px;
+}
+
+.wht_fts_h {
+	background-position: 0 -250px;
+	width: 18px;
+	height: 16px;
+}
+
+.white_page {
+	background-position: 0 -266px;
+	width: 18px;
+	height: 16px;
+}
+
+.white_nav_search {
+	background-position: 0 -282px;
+/* 	width: 18px; */
+	height: 15px;
+}
+
+.white_nav_index {
+	background-position: 0 -297px;
+/* 	width: 14px; */
+	height: 14px;
+}
+
+.white_nav_glossary {
+	background-position: 0 -311px;
+/* 	width: 12px; */
+	height: 14px;
+}
+
+.white_book_open {
+	background-position: 0 -325px;
+	width: 17px;
+	height: 15px;
+}
+
+.white_book_closed {
+	background-position: 0 -340px;
+	width: 18px;
+	height: 15px;
+}
+
+.sym-ec {
+	background-position: 0 -355px;
+	width: 87px;
+	height: 82px;
+}
+
+.gold_logo {
+	background-position: 0 -437px;
+	width: 184px;
+	height: 52px;
+}
+
+.go {
+	background-position: 0 -489px;
+	width: 25px;
+	height: 15px;
 }
