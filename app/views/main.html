@@ -1,5 +1,8 @@
 <!doctype html>
-
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html class="ie"> <![endif]-->
 <html class="no-js">
     <head>
     	<meta charset="utf-8">
@@ -7,17 +10,19 @@
         <title>#{get 'title' /}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="/public/javascripts/modernizr.custom.78474.js"></script>
+        #{get 'moreScripts' /}
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/customize_bootstrap.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+		<!--[if lt IE 8]>
+    		<link href="/public/stylesheets/bootstrap-ie7.css" rel="stylesheet">
+		<![endif]-->
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
     </head>
     <body>
-    	<!--[if lt IE 8]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
         #{doLayout /}
         <script data-main="/public/javascripts/main" src="/public/javascripts/require.js" type="text/javascript" charset="utf-8"></script>
         #{get 'moreScripts' /}
