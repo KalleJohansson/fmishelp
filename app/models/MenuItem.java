@@ -11,7 +11,7 @@ public class MenuItem extends Model {
 
 	private String name;
 	
-	private Page page;
+	private long pageid;
 	
 	private boolean hasSubpages;
 	
